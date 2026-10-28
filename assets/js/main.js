@@ -84,9 +84,12 @@
   /* ================================
         04. mobile menu 
     ================================ */
-  var thMenuWrap = $('.th-mobile-menu-active > ul').clone();
   var thSideMenu = $('.th-offcanvas-menu nav');
-  thSideMenu.append(thMenuWrap);
+  if (thSideMenu.length) {
+    thSideMenu.empty();
+    var thMenuWrap = $('.th-mobile-menu-active > ul').clone();
+    thSideMenu.append(thMenuWrap);
+  }
   if ($(thSideMenu).find('.sub-menu, .th-mega-menu').length != 0) {
     $(thSideMenu)
       .find('.sub-menu, .th-mega-menu')
@@ -97,7 +100,6 @@
     '.th-offcanvas-menu nav > ul > li button.th-menu-close, .th-offcanvas-menu nav > ul li.has-dropdown > a',
   );
   $(sideMenuList).on('click', function (e) {
-    console.log(e);
     e.preventDefault();
     if (!$(this).parent().hasClass('active')) {
       $(this).parent().addClass('active');

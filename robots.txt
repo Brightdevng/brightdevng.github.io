@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap index
-Sitemap: https://brightdavid.com/sitemap.xml
+Sitemap: https://brightdevng.github.io/sitemap.xml

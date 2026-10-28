@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://brightdavid.com/</loc>
+    <loc>https://brightdevng.github.io/</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://brightdavid.com/bright_david.png</image:loc>
+      <image:loc>https://brightdevng.github.io/bright_david.png</image:loc>
       <image:title>Bright David — Business Systems &amp; Software Developer</image:title>
       <image:caption>Bright David - Business Systems and Software Developer with 5+ years experience building web applications, mobile apps (Flutter), SaaS platforms, e-commerce solutions, and custom business management software.</image:caption>
     </image:image>
